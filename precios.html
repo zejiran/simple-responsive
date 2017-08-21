@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Precios de tus mejores guitarras!!!</title>
+        <meta charset = "utf-8" />
+        <link rel = "stylesheet" href = "css/invie.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    </head>
+    <body class="precios">
+        <div class="background">
+            <header id = "header" class = "header contenedor"> <!-- header -->
+                <figure class = "logotipo"> <!-- logotipo -->
+                    <img src = "images/invie.png" srcset="images/invie.png 1x, images/invie2x.png 2x" width = "186" height = "60" alt = "Invie logotipo" />
+                </figure>
+                <span class="burger-button icon-menu" id="burger-button"></span>
+                <nav class = "menu" id="menu"> <!-- menu -->
+                    <ul>
+                        <li>
+                            <a href = "index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href = "#guitarras">Guitarras</a>
+                        </li>
+                        <li>
+                            <a href = "precios.html">Precios</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <section class="tabla">
+            <div class="contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Precio</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100 000</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100 000</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                        <tr>
+                            <td>Invie Classic</td>
+                            <td>$100 000</td>
+                            <td>Una guitarra muy pro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class = "contenedor">
+                <div class = "contacto">
+                    <img src = "images/invie-white.png" alt = "logotipo blanco" />
+                    <a href = "tel:+573168004201" ><strong>Teléfono</strong> <span>316 800 4201</span></a>
+                    <a href = "mailto:juansebas6000@hotmail.com"><strong>E-mail</strong> <span>juansebas6000@hotmail.com</span></a>
+                </div>
+                <form class = "formulario">
+                    <div class="col1">
+                        <label for = "nombre">Nombre</label>
+                        <input type = "text" required id="nombre" placeholder="Escriba su nombre"name = "nombre"/>
+                        <label for = "email">E-mail</label>
+                        <input type = "email" required id = "email" placeholder="Escriba su E-mail" name = "email"/>
+                        <div class="sexo">
+                            <label for = "mujer">
+                                <input type = "radio" checked id = "mujer" name = "sexo" value="mujer"/> Mujer
+                            </label>
+                            <label for = "hombre">
+                                <input type = "radio" id = "hombre" name = "sexo"value="hombre"/> Hombre
+                            </label>
+                        </div>
+                        <div class="intereses">
+                            <label for="cotizacion">
+                                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"/> Cotización
+                            </label>
+
+                            <label for="reclamos">
+                                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"/> Reclamos
+                            </label>
+
+                            <label for="comentarios">
+                                <input type="checkbox" id="comentarios" name="intereses" value="comentarios"/> Comentarios
+                            </label>
+
+                            <label for="otros">
+                                <input type="checkbox" id="otros" name="intereses" value="otros"/> Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="comantarios">Comentarios</label>
+                        <textarea name="comantarios" id="comantarios" cols="30" rows="7"></textarea>
+                        <input type="submit" value="Enviar" class="button"/>
+                    </div>
+                </form>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+        <script>
+            var $burgerButton = document.getElementById("burger-button");
+            var $menu = document.getElementById("menu");
+
+            function toggleMenu() {
+                $menu.classList.toggle("active")
+            }
+
+            var consulta=window.matchMedia("(max-width: 500px)");
+            consulta.addListener(mediaQuery);
+
+            function mediaQuery(){
+                if(consulta.matches){
+                    $burgerButton.addEventListener("touchstart", toggleMenu);
+                } else {
+                    $burgerButton.removeEventListener("touchstart", toggleMenu);
+                }
+            }
+
+            mediaQuery();
+
+            var bLazy = new Blazy({
+                selector: "img"
+            });
+
+        </script>
+    </body>
+</html>
