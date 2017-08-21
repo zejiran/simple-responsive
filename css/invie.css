@@ -371,6 +371,9 @@ table, td, th{
     .contacto{
         margin: 0 auto;
     }
+    .formulario label{
+        font-size: 20px;
+    }
     .formulario{
         display: block;
         margin: auto;
@@ -378,7 +381,13 @@ table, td, th{
     }
     .intereses label{
         display: block;
-        font-size: 16px;
+        font-size: 20px;
+    }
+    .sexo label{
+        display: block;
+    }
+    input[type="text"]{
+        margin-bottom: 30px;
     }
     input[type="text"],
     input[type="email"]{
