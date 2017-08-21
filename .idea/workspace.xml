@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfcca06-def7-4522-8c31-f61fbf10610c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/invie.css" afterPath="$PROJECT_DIR$/css/invie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2533">
-              <caret line="145" column="9" lean-forward="true" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+            <state relative-caret-position="3213">
+              <caret line="173" column="58" lean-forward="true" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -34,11 +35,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="invie.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/invie.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="0" column="3220" lean-forward="false" selection-start-line="0" selection-start-column="3220" selection-end-line="0" selection-end-column="3220" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="invie.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/invie.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="514" column="14" lean-forward="true" selection-start-line="514" selection-start-column="14" selection-end-line="514" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
               <folding>
                 <element signature="e#1012#1103#0" expanded="false" />
               </folding>
@@ -58,6 +69,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,6 +85,7 @@
         <option value="$PROJECT_DIR$/../../invie.css" />
         <option value="$PROJECT_DIR$/precios.html" />
         <option value="$PROJECT_DIR$/css/invie.css" />
+        <option value="$PROJECT_DIR$/css/invie.min.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -98,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,20 +134,25 @@
             <path>
               <item name="Invie con Responsive Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="Invie con Responsive Design" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="invie.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Invie con Responsive Design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Invie con Responsive Design" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Parallax" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,18 +181,18 @@
       <updated>1503269574281</updated>
       <workItem from="1503269575934" duration="8255000" />
       <workItem from="1503324614320" duration="11297000" />
-      <workItem from="1503341246034" duration="1218000" />
+      <workItem from="1503341246034" duration="1701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20770000" />
+    <option name="totallyTimeSpent" value="21253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1042" y="0" width="1522" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20933247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20889488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -254,18 +280,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/invie.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="514" column="14" lean-forward="true" selection-start-line="514" selection-start-column="14" selection-end-line="514" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
           <folding>
             <element signature="e#1012#1103#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/invie.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="0" column="3220" lean-forward="false" selection-start-line="0" selection-start-column="3220" selection-end-line="0" selection-end-column="3220" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="145" column="9" lean-forward="true" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+        <state relative-caret-position="3213">
+          <caret line="173" column="58" lean-forward="true" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
